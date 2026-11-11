@@ -3,19 +3,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Hazem Mohsen Abdelaziz — Robotics and Industrial Automation Engineer portfolio." />
   <title>Hazem Mohsen Abdelaziz | Robotics and Industrial Automation Engineer</title>
+  <meta name="description" content="Hazem Mohsen Abdelaziz — Robotics and Industrial Automation Engineer. Portfolio covering ROS 2, SLAM, sensor fusion, autonomous vehicle testing and industrial automation." />
+  <meta name="author" content="Hazem Mohsen Abdelaziz" />
+  <meta name="theme-color" content="#0b0d10" />
+  <link rel="canonical" href="https://hazem-m-abdelaziz.github.io/" />
+
+  <!-- Social sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Hazem Mohsen Abdelaziz | Robotics and Industrial Automation Engineer" />
+  <meta property="og:description" content="Robotics, autonomy, SLAM, sensor fusion, autonomous vehicle testing and industrial automation." />
+  <meta property="og:url" content="https://hazem-m-abdelaziz.github.io/" />
+  <meta property="og:image" content="https://hazem-m-abdelaziz.github.io/assets/Hazem_Abdelaziz_Profile.jpg" />
+  <meta name="twitter:card" content="summary" />
+
+  <!-- Structured data for search engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Hazem Mohsen Abdelaziz",
+    "jobTitle": "Robotics and Industrial Automation Engineer",
+    "url": "https://hazem-m-abdelaziz.github.io/",
+    "image": "https://hazem-m-abdelaziz.github.io/assets/Hazem_Abdelaziz_Profile.jpg",
+    "email": "mailto:hazemmohsen07@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Cairo", "addressCountry": "EG" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Ain Shams University" },
+    "sameAs": [
+      "https://github.com/Hazem-M-Abdelaziz",
+      "https://www.linkedin.com/in/hazem-m-abdelaziz/"
+    ]
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/Hazem_Abdelaziz_Profile.jpg" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="noise"></div>
+  <div class="noise" aria-hidden="true"></div>
   <header class="nav">
     <span class="logo">Hazem Mohsen Abdelaziz</span>
-    <button class="menu" aria-label="Open menu">☰</button>
-    <nav>
+    <button class="menu" type="button" aria-label="Open menu" aria-controls="site-nav" aria-expanded="false">☰</button>
+    <nav id="site-nav" aria-label="Main">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
@@ -24,24 +56,24 @@
     </nav>
   </header>
 
-  <main>
+  <main id="main">
     <section id="home" class="hero section">
       <div class="hero-copy reveal">
-        <div class="profile-line"><img src="assets/Hazem_Abdelaziz_Profile.jpg" alt="Hazem Mohsen Abdelaziz"><span>Cairo, Egypt</span></div>
+        <div class="profile-line"><img src="assets/Hazem_Abdelaziz_Profile.jpg" alt="Portrait of Hazem Mohsen Abdelaziz" decoding="async" fetchpriority="high"><span>Cairo, Egypt</span></div>
         <p class="eyebrow">ROBOTICS • AUTONOMY • INDUSTRIAL AUTOMATION</p>
         <h1>Building intelligent systems that <span>connect software to the real world.</span></h1>
         <p class="lead">I'm Hazem Mohsen Abdelaziz, a robotics and autonomous systems engineer focused on localization, SLAM, simulation, industrial communication, and robotics software.</p>
         <div class="actions">
-          <a class="btn primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="btn primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
           <a class="btn ghost" href="assets/Hazem_Abdelaziz_CV.pdf" download>Download CV</a>
         </div>
         <div class="socials">
-          <a href="https://github.com/Hazem-M-Abdelaziz" target="_blank">GitHub</a>
-          <a href="https://www.linkedin.com/in/hazem-m-abdelaziz/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/Hazem-M-Abdelaziz" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/hazem-m-abdelaziz/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href="mailto:hazemmohsen07@gmail.com">Email</a>
         </div>
       </div>
-      <div class="hero-visual reveal">
+      <div class="hero-visual reveal" aria-hidden="true">
         <div class="orb"></div>
         <div class="grid"></div>
         <div class="telemetry">
@@ -69,10 +101,10 @@
         <div><p class="eyebrow">02 — TOOLBOX</p><h2>Technical <span>skills.</span></h2></div>
       </div>
       <div class="skills-grid">
-        <article><span class="num">01</span><h3>Robotics & Automation</h3><p>Robotics systems, autonomous navigation, localization, control, manipulation, industrial automation and system integration.</p><div class="tags"><i>ROS 2</i><i>Robotics</i><i>Automation</i><i>Control</i><i>Localization</i></div></article>
+        <article><span class="num">01</span><h3>Robotics &amp; Automation</h3><p>Robotics systems, autonomous navigation, localization, control, manipulation, industrial automation and system integration.</p><div class="tags"><i>ROS 2</i><i>Robotics</i><i>Automation</i><i>Control</i><i>Localization</i></div></article>
         <article><span class="num">02</span><h3>Industrial Automation</h3><p>Virtual factory-cell development and industrial communication workflows involving sensors, actuators, conveyors, HMI-oriented systems and Modbus TCP/IP.</p><div class="tags"><i>Factory I/O</i><i>Modbus TCP/IP</i><i>MATLAB</i><i>HMI</i><i>SCADA</i></div></article>
-        <article><span class="num">03</span><h3>Programming & Control</h3><p>Engineering and research workflows using MATLAB, Simulink, Python, C++ and C for robotics, automation, perception and control.</p><div class="tags"><i>MATLAB</i><i>Simulink</i><i>Python</i><i>C++</i><i>C</i></div></article>
-        <article><span class="num">04</span><h3>Perception & Simulation</h3><p>Computer vision, V-SLAM, stereo vision, sensor fusion and simulation-based development using modern robotics environments.</p><div class="tags"><i>OpenCV</i><i>V-SLAM</i><i>Stereo Vision</i><i>Webots</i><i>CARLA</i><i>Gazebo</i><i>RViz</i><i>Docker</i></div></article>
+        <article><span class="num">03</span><h3>Programming &amp; Control</h3><p>Engineering and research workflows using MATLAB, Simulink, Python, C++ and C for robotics, automation, perception and control.</p><div class="tags"><i>MATLAB</i><i>Simulink</i><i>Python</i><i>C++</i><i>C</i></div></article>
+        <article><span class="num">04</span><h3>Perception &amp; Simulation</h3><p>Computer vision, V-SLAM, stereo vision, sensor fusion and simulation-based development using modern robotics environments.</p><div class="tags"><i>OpenCV</i><i>V-SLAM</i><i>Stereo Vision</i><i>Webots</i><i>CARLA</i><i>Gazebo</i><i>RViz</i><i>Docker</i></div></article>
       </div>
     </section>
 
@@ -92,15 +124,15 @@
         </article>
         <article class="project">
           <div class="project-number">03</div>
-          <div class="project-body"><p class="project-type">COMPUTER VISION / V-SLAM</p><h3>Robust VSLAM Using MATLAB Mobile Streaming</h3><p>MATLAB App Designer framework for multi-mode Visual SLAM experimentation, monocular feature-based localization and mapping, IMU-camera fusion, and GPS-assisted outdoor pose estimation.</p><div class="project-tags"><span>MATLAB</span><span>V-SLAM</span><span>IMU + Camera</span><span>GPS</span></div><a href="https://github.com/Hazem-M-Abdelaziz/Robust-VSLAM-Using-Matlab-Mobile-Streaming/tree/main" target="_blank">View repository ↗</a></div>
+          <div class="project-body"><p class="project-type">COMPUTER VISION / V-SLAM</p><h3>Robust VSLAM Using MATLAB Mobile Streaming</h3><p>MATLAB App Designer framework for multi-mode Visual SLAM experimentation, monocular feature-based localization and mapping, IMU-camera fusion, and GPS-assisted outdoor pose estimation.</p><div class="project-tags"><span>MATLAB</span><span>V-SLAM</span><span>IMU + Camera</span><span>GPS</span></div><a href="https://github.com/Hazem-M-Abdelaziz/Robust-VSLAM-Using-Matlab-Mobile-Streaming/tree/main" target="_blank" rel="noopener noreferrer">View repository ↗</a></div>
         </article>
         <article class="project">
           <div class="project-number">04</div>
-          <div class="project-body"><p class="project-type">LOCALIZATION / SENSOR FUSION</p><h3>Fuzzy-Logic Based Fusion for Autonomous Vehicle Localization</h3><p>Adaptive localization pipelines integrating LiDAR, IMU, GPS and camera data, modeled and validated with MATLAB/Simulink using simulation environments and KITTI datasets.</p><div class="project-tags"><span>MATLAB</span><span>Simulink</span><span>LiDAR</span><span>KITTI</span></div><a href="https://github.com/Hazem-M-Abdelaziz/Autonomous-Vehicle-Localization-Using-Onboars-Sensor-and-HD-Geolocated-Maps-Project-Solution" target="_blank">View related work ↗</a></div>
+          <div class="project-body"><p class="project-type">LOCALIZATION / SENSOR FUSION</p><h3>Fuzzy-Logic Based Fusion for Autonomous Vehicle Localization</h3><p>Adaptive localization pipelines integrating LiDAR, IMU, GPS and camera data, modeled and validated with MATLAB/Simulink using simulation environments and KITTI datasets.</p><div class="project-tags"><span>MATLAB</span><span>Simulink</span><span>LiDAR</span><span>KITTI</span></div><a href="https://github.com/Hazem-M-Abdelaziz/Autonomous-Vehicle-Localization-Using-Onboars-Sensor-and-HD-Geolocated-Maps-Project-Solution" target="_blank" rel="noopener noreferrer">View related work ↗</a></div>
         </article>
         <article class="project">
           <div class="project-number">05</div>
-          <div class="project-body"><p class="project-type">ROS 2 / ROBOTICS SOFTWARE</p><h3>ROS 2 Autonomous Vehicle Software Architecture</h3><p>Modular ROS 2 architectures supporting autonomous navigation, inter-module communication, real-time control, localization and perception pipelines.</p><div class="project-tags"><span>ROS 2</span><span>C++</span><span>Python</span><span>Linux</span></div><a href="https://github.com/Hazem-M-Abdelaziz/Matlab-With-ROS" target="_blank">View robotics work ↗</a></div>
+          <div class="project-body"><p class="project-type">ROS 2 / ROBOTICS SOFTWARE</p><h3>ROS 2 Autonomous Vehicle Software Architecture</h3><p>Modular ROS 2 architectures supporting autonomous navigation, inter-module communication, real-time control, localization and perception pipelines.</p><div class="project-tags"><span>ROS 2</span><span>C++</span><span>Python</span><span>Linux</span></div><a href="https://github.com/Hazem-M-Abdelaziz/Matlab-With-ROS" target="_blank" rel="noopener noreferrer">View robotics work ↗</a></div>
         </article>
         <article class="project">
           <div class="project-number">06</div>
@@ -112,6 +144,7 @@
     <section id="experience" class="section narrow">
       <p class="eyebrow">04 — BACKGROUND</p>
       <div class="timeline">
+        <div class="timeline-item"><span>AUG 2026 — PRESENT</span><div><h3>Teaching Assistant — German University in Cairo</h3><p>Supporting students in Robotics, PLC programming and Electro-Pneumatic Systems courses through tutorials and hands-on lab sessions.</p></div></div>
         <div class="timeline-item"><span>JUN 2026 — PRESENT</span><div><h3>Part-Time Autonomous Vehicles Testing Engineer — Micro Engineering Tech Inc.</h3><p>Designing and validating scenario-based tests for autonomous vehicle software in simulation; functional, integration and system-level testing across perception, localization, planning and control.</p></div></div>
         <div class="timeline-item"><span>OCT 2025 — JAN 2026</span><div><h3>Part-Time Research Assistant — Multi-Robot Systems Lab, German University in Cairo</h3><p>Developed core software infrastructure for the Vector_V1 autonomous vehicle research platform and modular ROS 2 communication, teleoperation and control systems.</p></div></div>
         <div class="timeline-item"><span>OCT 2023 — JAN 2024</span><div><h3>Graduation Project Intern — Quanttronix</h3><p>Contributed to an autonomous upper humanoid robot platform, including navigation, manipulation, low-level control, wiring architectures, actuator interfaces and power distribution.</p></div></div>
@@ -126,12 +159,12 @@
       <p class="contact-details">Cairo, Egypt · +20 115 942 3612 · hazemmohsen07@gmail.com</p>
       <div class="actions">
         <a class="btn primary" href="mailto:hazemmohsen07@gmail.com">Get in touch ↗</a>
-        <a class="btn ghost" href="https://www.linkedin.com/in/hazem-m-abdelaziz/" target="_blank">LinkedIn</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/hazem-m-abdelaziz/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </div>
     </section>
   </main>
 
-  <footer><span>© 2026 Hazem Mohsen Abdelaziz</span><span>Designed for robotics & beyond.</span></footer>
-  <script src="script.js"></script>
+  <footer><span>© 2026 Hazem Mohsen Abdelaziz</span><span>Designed for robotics &amp; beyond.</span></footer>
+  <script src="script.js" defer></script>
 </body>
 </html>
